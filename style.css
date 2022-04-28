@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+}
+.maindiv {
+
+    width: 100%;
+    height: 720px;
+    background-image: url(images/Homepage_Desktop.webp);
+    background-size: cover;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+.menu{
+    position: relative;
+    left: 355px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    
+    
+}
+.menutext{
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    
+}
+.menutext:hover{
+    text-decoration: underline;
+    }
+.logo {
+    position: relative;
+    left: 110px;
+    top: 30px;
+    width: 220px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+.menubartext{
+    position: relative;
+    left: 250px;
+    bottom: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+
+.svg{
+    position: relative;
+    left: 330px;
+    bottom: 40px;
+    fill: white;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 420px;
+    left: 110px;
+    max-width: 520px;
+    height: 177px;
+
+}
+
+.smalltext {
+
+    margin: 0px 0px;
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+    text-decoration: none;
+
+}
+
+.maintext {
+    margin: 0px;
+    font-size: 50px;
+    font-family: Arial;
+    color: white;
+}
+
+.button {
+    width: 160px;
+    margin: 20px;
+    padding: 15px 30px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.firstdiv {
+    width: 100%;
+    height: 720px;
+    background-image: url(images/Homepage_Axiom_1_Splashdown_20220425_DSC07376_Desktop.webp);
+    background-size: cover;
+}
+
+.textcontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 400px;
+    left: 110px;
+    max-width: 520px;
+    height: 177px;
+}
+
+.seconddiv {
+    width: 100%;
+    height: 720px;
+    background-image: url(images/S20_Chopstick_Stack_Desktop\ \(1\).webp);
+    background-size: cover;
+}
+
+.therddiv {
+    width: 100%;
+    height: 720px;
+    background-image: url(images/hls-resized-2.webp);
+    background-size: cover;
+}
+
+.textcontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: 400px;
+    left: 110px;
+    max-width: 520px;
+    height: 177px;
+}
+.footercontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.final{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.finaltext{
+    margin: 10px;
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+.final .menutext:hover{
+    color: gray;
+    text-decoration: none;
+}
+
+
+
